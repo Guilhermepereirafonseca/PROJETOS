@@ -1,0 +1,41 @@
+@font-face {
+    font-family: 'Consolas';
+    src: ".../fonts/CONSOLA.TTF";
+}
+
+body {
+    background-color: rgb(0, 0, 128);
+}
+
+textarea {
+    width: 95vw;
+    height: 80vh;
+    padding: 10px;
+    border: 2px solid #000000;
+    font-family: Consolas;
+    font-size: 15px;
+}
+
+label {
+    color: white;
+    font-family: Arial;
+}
+
+#save {
+    border-width: 5px;
+    border-style: outset;
+    border-color: rgb(192, 192, 212);
+}
+
+button:hover {
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(255, 0, 0);
+}
+
+#file_input {
+    color: white;
+    font-weight: bold;
+    font-family: Arial;
+}
