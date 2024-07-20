@@ -1,0 +1,68 @@
+body {
+    background-color: rgba(204, 213, 221, 0.37);
+}
+#fotominha {
+    border-radius: 50%;
+    width: 200px;
+    padding-top: 6px;
+}
+
+.titulo1 {
+    font-family: Arial;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    font-family: Arial;
+    line-height: 1.5; /* Espaçamento entre as linhas */
+    font-size: 20px;
+}
+
+ul, li {
+    line-height: 1.5;
+    font-family: Arial;
+    font-size: 17px;
+}
+
+img {
+    width: 5%;
+    height: 5%;
+    padding-right: 10px;
+    padding-bottom: 8px;
+}
+
+img:hover {
+    transform: scale(1.2); /* Aumenta um pouco o tamanho do ícone */
+    border-color: #333; /* Muda a cor da borda ao passar o mouse */
+    filter: brightness(1.2); /* Aumenta o brilho da imagem ao passar o mouse */
+}
+
+abbr {
+    cursor: pointer;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+abbr:hover {
+    color: darkblue;
+}
+
+.summary {
+    padding-bottom: 20px; /* Espaço(baixo) para o elemento */
+    padding-top: 10px;
+    padding-left: 10px;
+    border: solid 2px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana;
+    margin-right: 5.5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
